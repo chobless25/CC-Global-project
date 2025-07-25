@@ -132,6 +132,16 @@ body {
   gap: 15px;
   align-items: flex-start;
 }
+.info-line{
+  height: 2px;
+  width: 20px;
+  background-color: rgb(215, 214, 214);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.speaker-strong{
+  color: red;
+}
 
 .speaker img {
   width: 124px;
@@ -223,7 +233,7 @@ header {
     }
 
     .year-box {
-      background-color: #fff;
+      background-color: #ef0c0c;
       padding: 80px 150px;
       font-size: 2rem;
       background-image: url(/asset/download.jpg);
@@ -262,6 +272,16 @@ header {
   justify-content: center;
   gap: 30px;
   margin-top: 20px;
+}
+.partner_line{
+  display: flex;
+  justify-items: center;
+  background-color: rgb(248, 83, 83);
+  height: 2px;
+  width: 30px;
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 30px;
 }
 .join-section {
       padding: 60px 20px;
